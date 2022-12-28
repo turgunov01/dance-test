@@ -1,0 +1,196 @@
+@media(max-width: 1140px) {
+    .short__title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .card__title {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    .person__name {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    .person__right {
+        margin-left: 0;
+    }
+
+    .person__icon.dance {
+        right: 0;
+    }
+
+}
+
+@media(max-width: 1080px) {
+    .want__person {
+        max-width: 27rem;
+    }
+
+    .ad__right-image::after {
+        width: 45rem;
+        height: 55rem;
+    }
+
+    .person__content {
+        padding: 4rem;
+    }
+
+    .person__type {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .header__icon.loc {
+        bottom: 5rem;
+    }
+}
+
+@media(max-width: 1040px) {
+    .want .container {
+        row-gap: 2.4rem;
+        flex-direction: column;
+    }
+
+    .cards {
+        flex-direction: column;
+        row-gap: 2.4rem;
+    }
+
+    .ad__right-image::after {
+        display: none;
+    }
+
+    .mobile-hidden {
+        display: block;
+        max-width: 45rem;
+        width: 100%;
+    }
+
+    .ad__right-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ad__left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ad__content {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        row-gap: 2.4rem;
+    }
+
+    .ad__block {
+        width: max-content;
+        margin: auto;
+    }
+
+    .card {
+        max-width: 55rem;
+    }
+
+    .person {
+        display: none;
+    }
+
+    .person.hidden {
+        display: block;
+    }
+
+    .person__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 55rem;
+        width: 100%;
+        margin: auto;
+    }
+
+    .person__info {
+        text-align: center;
+    }
+
+    .person__type {
+        margin: auto;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .person__name {
+        font-size: 3rem;
+        line-height: 4rem;
+        width: 75%;
+        margin: auto;
+    }
+
+    .trainer {
+        margin: auto;
+        display: flex;
+    }
+
+    .person__icon.play {
+        left: 13rem;
+    }
+
+    .person__icon.kkal {
+        left: 10rem;
+    }
+
+    .person__icon.speed {
+        right: 5rem;
+    }
+
+    .person__image {
+        margin-top: 2rem;
+    }
+
+    .person__about {
+        font-size: 2rem;
+        line-height: 3rem;
+        text-align: center;
+        max-width: 80%;
+        margin-top: 2rem;
+    }
+
+    .wave.yet {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .wave.sak {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .wave.toq {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .main .btns {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 1.5rem;
+        width: 100%;
+    }
+
+    .main .btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}

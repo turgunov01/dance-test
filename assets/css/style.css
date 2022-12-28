@@ -365,6 +365,7 @@ html {
     background: var(--block-white);
     padding: 3rem;
     border-radius: 2.4rem;
+    overflow: hidden;
 }
 
 .want__block-top {
@@ -925,6 +926,7 @@ html {
     align-items: center;
     justify-content: space-between;
 }
+
 .footer__social {
     display: flex;
     align-items: center;
@@ -958,3 +960,10 @@ main::after {
     z-index: -10;
     filter: blur(10rem);
 } */
+
+
+/* hidden */
+
+.person.hidden {
+    display: none;
+}
