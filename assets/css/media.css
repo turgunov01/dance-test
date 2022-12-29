@@ -577,10 +577,6 @@
         margin: 2rem auto;
     }
 
-    .main {
-        margin-top: 5rem;
-    }
-
     .header__person {
         width: 60%;
     }
@@ -799,5 +795,36 @@
         line-height: 2rem;
         width: 7.2rem;
         height: 2.31rem;
+    }
+
+    .trainer {
+        width: 100%;
+        max-width: 16rem;
+    }
+
+    .person__icon.kkal {
+        top: 3rem;
+    }
+
+    .person__icon.dance {
+        top: 5rem;
+        right: 10rem;
+    }
+
+    .person__icon.speed {
+        bottom: 8rem;
+    }
+
+    .person__icon.play {
+        left: 15rem;
+    }
+
+    .person__icon.kkal {
+        top: 5rem;
+        left: 13rem;
+    }
+
+    .logo-text {
+        row-gap: .5rem;
     }
 }
