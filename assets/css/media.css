@@ -359,3 +359,100 @@
         margin-bottom: 2rem;
     }
 }
+
+
+@media(max-width: 830px) {
+    .header__icon.dance {
+        width: 6rem;
+        height: 6rem;
+        padding: 1.2rem;
+    }
+
+    .header__icon.fit {
+        width: 15rem;
+        right: calc(100% / 4);
+    }
+
+    .header__icon.pulse {
+        bottom: 10rem;
+        right: calc(100% / 4);
+        width: 3rem;
+    }
+
+    .header__icon.play {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .easy {
+        font-size: 2rem;
+        line-height: 3rem;
+        height: 45px;
+    }
+
+    .mid,
+    .hard {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .mid {
+        width: 124px;
+        height: 38px;
+    }
+}
+
+@media(max-width: 775px) {
+    .header__icon.play {
+        right: calc(100% / 3.75);
+    }
+
+    .header__person {
+        width: 70%;
+    }
+
+    .header__text-flow {
+        font-size: 18rem;
+        line-height: 20rem;
+    }
+
+    .header__text-group {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    .wave.bir {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .wave.ikki {
+        width: 45rem;
+        height: 45rem;
+    }
+
+    .wave.uch {
+        width: 55rem;
+        height: 55rem;
+    }
+
+    .header__icon.speed {
+        left: calc(100% / 5);
+    }
+
+    .header__text-group-inner {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        padding: 1rem 2rem;
+        max-width: 24rem;
+    }
+
+    .header__icon.dance {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .header__icon.fit {
+        top: 60%;
+    }
+}
