@@ -42,6 +42,10 @@ ul {
     margin: 0 auto;
 }
 
+.wrapper {
+    overflow: hidden;
+}
+
 body {
     font-size: 1.6rem;
     background: rgba(68, 68, 68);

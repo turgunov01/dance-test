@@ -194,3 +194,168 @@
 
 
 }
+
+@media(max-width: 975px) {
+    .header__icon.dance {
+        width: 8rem;
+        height: 8rem;
+        padding: 1.5rem;
+    }
+
+    .header__icon.play {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .header__icon.pulse {
+        right: calc((100% / 4) - 4rem);
+    }
+
+    .header__icon.kkal {
+        width: 3rem;
+    }
+
+    .header__icon.speed {
+        width: 3rem;
+    }
+
+    .header__icon.fit {
+        right: calc(100% / 5);
+    }
+
+    .want__inner-icon {
+        height: unset;
+        width: 3rem;
+    }
+
+    .want__icon.play {
+        right: calc(100% / 7);
+        width: 7rem;
+    }
+
+    .want__inner.first {
+        column-gap: 1.5rem;
+    }
+
+    .short__icon {
+        padding: 1.5rem;
+        width: 8rem;
+        height: 8rem;
+    }
+
+    .short__about {
+        font-size: 1.8rem;
+        line-height: 2.8rem;
+    }
+
+    .card {
+        height: 100%;
+    }
+
+    .card-icon {
+        width: 8rem;
+    }
+
+    .person__icon.dance {
+        right: 5rem;
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem;
+    }
+
+    .person__icon.kkal {
+        width: 3rem;
+    }
+
+    .intro__title {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+}
+
+@media(max-width: 900px) {
+    .wrap__nav .btns {
+        display: none;
+    }
+
+    .wave.bir {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .wave.ikki {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .wave.uch {
+        width: 70rem;
+        height: 70rem;
+    }
+
+    .header__text-flow {
+        font-size: 23rem;
+        line-height: 25rem;
+    }
+
+    .header__icon.fit {
+        right: calc(100% / 5);
+        width: 20rem;
+        top: 55%;
+    }
+
+    .header__text-group {
+        left: 2rem;
+        top: 15rem;
+    }
+
+    .header__icon.dance {
+        width: 7rem;
+        height: 7rem;
+        padding: 1.5rem;
+    }
+
+    .header__icon.play {
+        left: calc(100% / 3.5);
+        bottom: 15rem;
+    }
+
+    .header__person {
+        left: 50%;
+        position: relative;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+
+    .header__text-group-inner {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        padding: 1rem 2rem;
+        max-width: 28rem;
+    }
+
+    .header__icon.dance {
+        right: calc(100% / 3);
+        top: 4rem;
+    }
+
+    .header__icon.pulse {
+        width: 4rem;
+        right: calc(100% / 4);
+        bottom: 4rem;
+    }
+
+    .header__icon.speed {
+        left: calc(100% / 10);
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 20);
+        top: 60%;
+    }
+
+    .want__block-name {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
