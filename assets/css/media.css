@@ -443,7 +443,7 @@
     .header__text-group-inner {
         font-size: 1.4rem;
         line-height: 2.4rem;
-        padding: 1rem 2rem;
+        padding: .5rem 1.4rem;
         max-width: 24rem;
     }
 
@@ -454,5 +454,350 @@
 
     .header__icon.fit {
         top: 60%;
+    }
+
+    .want-person {
+        max-width: 25rem;
+        margin-left: 0;
+    }
+
+    .want__icon.play {
+        right: calc(100% / 5);
+        width: 7rem;
+        top: 5rem;
+    }
+
+    .want__icon.graph {
+        right: calc(100% / 6);
+        bottom: 3rem;
+    }
+
+    .want__inner-icon {
+        width: 2rem;
+    }
+
+    .want__inner-amount {
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 10);
+        padding: 1rem 2rem;
+        border-radius: 1rem;
+    }
+
+    .want__icon-text {
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .wave.four {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .wave.five {
+        width: 30rem;
+        height: 30rem;
+    }
+
+    .wave.six {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .want .btn {
+        height: 100%;
+    }
+
+    .want .btn-image {
+        width: 20rem;
+    }
+
+    .easy {
+        right: 2rem;
+    }
+
+    .hard {
+        left: 4rem;
+    }
+
+    .mid {
+        right: 8rem;
+    }
+}
+
+@media(max-width: 675px) {
+    .intro__title {
+        font-size: 5rem;
+        line-height: 6rem;
+    }
+
+    .header__icon.fit {
+        top: 50%;
+        width: 11rem;
+    }
+
+    .header__icon.speed {
+        left: calc(100% / 8);
+    }
+
+    .header__icon.dance {
+        right: calc(100% / 3.15);
+        top: 0;
+        padding: 1rem;
+    }
+
+    .footer {
+        padding: 3rem 0;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .logo {
+        flex-direction: column;
+        max-width: 16rem;
+    }
+
+    .footer .logo-text {
+        text-align: center;
+    }
+
+    .footer .logo-name {
+        margin: 1.5rem auto 0 auto;
+    }
+
+    .footer__text {
+        text-align: center;
+        margin: 2rem auto;
+    }
+
+    .main {
+        margin-top: 5rem;
+    }
+
+    .header__person {
+        width: 60%;
+    }
+
+    .header__icon.play {
+        left: calc(100% / 3.75);
+        bottom: 12rem;
+    }
+}
+
+@media(max-width: 575px) {
+    .header__icon.dance {
+        right: calc(100% / 3.5);
+    }
+
+    .intro__title {
+        margin: 4rem auto;
+        width: 90%;
+    }
+
+    .ad__item {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 500;
+    }
+
+    .mobile-hidden {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .ad__block {
+        width: 100%;
+        max-width: 55rem;
+    }
+
+    .ad__list {
+        width: 100%;
+        max-width: 40rem;
+    }
+
+    .person__info {
+        row-gap: 0;
+    }
+
+    .trainer {
+        width: 100%;
+        max-width: 25rem;
+    }
+
+    .person__icon.dance {
+        right: 8rem;
+        top: 8rem;
+    }
+
+    .person__icon.kkal {
+        width: 2rem;
+    }
+
+    .person__icon.play {
+        width: 3.5rem;
+    }
+
+    .person__icon.play {
+        width: 5rem;
+        left: 17rem;
+    }
+
+    .person__icon.speed {
+        right: 8rem;
+        width: 2rem;
+    }
+}
+
+@media(max-width: 550px) {
+    .want__icon.play {
+        width: 5rem;
+        top: 6rem;
+    }
+
+    .header__icon.kkal {
+        width: 2rem;
+    }
+
+    .header__icon.pulse {
+        width: 2rem;
+    }
+
+    .header__person {
+        width: 100%;
+        max-width: 27rem;
+    }
+
+    .header__text-group {
+        top: 7rem;
+        left: 3rem;
+    }
+
+    .header__text-group-inner {
+        max-width: 22rem;
+    }
+
+    .header__icon.dance {
+        right: calc(100% / 3.25);
+    }
+
+    .header__icon.play {
+        bottom: 10rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .want-person {
+        max-width: 18rem;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    .want__icon.play {
+        width: 5rem;
+        top: 4rem;
+        right: calc(100% / 4.5);
+    }
+
+    .wave.four {
+        width: 17rem;
+        height: 17rem;
+    }
+
+    .wave.five {
+        width: 23rem;
+        height: 23rem;
+    }
+
+    .wave.six {
+        width: 28rem;
+        height: 28rem;
+    }
+
+    .want__icon.graph {
+        right: calc(100% / 6);
+    }
+
+    .want__icon-text {
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        padding: .5rem .8rem;
+    }
+
+    .want__inner-amount {
+        font-size: 2rem;
+        line-height: 2rem;
+    }
+
+    .want__inner.first,
+    .want__inner.second {
+        column-gap: 1rem;
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 5);
+    }
+
+    .header__text-flow {
+        font-size: 14rem;
+        line-height: 15rem;
+    }
+
+    .want__block-name {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .btn {
+        max-width: 22rem;
+    }
+
+    .want .btn-image {
+        width: 15rem;
+    }
+
+    .want__block-name {
+        width: 75%;
+        margin: 2rem auto;
+    }
+
+    .want__person {
+        max-width: 18rem;
+        display: flex;
+        margin: auto;
+    }
+
+    .mid {
+        right: 10rem;
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 6.6rem;
+        height: 2.31rem;
+    }
+
+    .easy {
+        font-size: 1.3rem;
+        line-height: 1.7rem;
+        height: 35px;
+        width: 7rem;
+        height: 2.8rem;
+        right: 7rem;
+        top: 7rem;
+    }
+
+    .hard {
+        left: 10rem;
+        top: 13rem;
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 7.2rem;
+        height: 2.31rem;
     }
 }
