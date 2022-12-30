@@ -1283,4 +1283,16 @@
     .person__icon.play {
         left: 6rem;
     }
+
+    .want__icon.graph {
+        right: -2.5rem;
+    }
+
+    .want__icon.play {
+        right: -1.5rem;
+    }
+
+    .card__title {
+        margin-top: 2rem;
+    }
 }
