@@ -1144,3 +1144,143 @@
         margin-top: 3rem;
     }
 }
+
+@media(max-width: 375px) {
+    .header__icon.blur {
+        width: 15rem;
+        left: calc(100% / 2);
+    }
+
+    .header__icon.loc {
+        left: -50%;
+    }
+
+    .want__icon.play {
+        right: 0;
+    }
+
+    .want__icon.graph {
+        right: 0;
+    }
+
+    .want__icon.badge {
+        transform: scale(0.9) translateY(-2.5rem);
+    }
+
+    .header__icon.dance {
+        right: calc(100% / 5);
+    }
+
+    .header__icon.pulse {
+        right: calc(100% / 8);
+    }
+
+    .person__icon.play {
+        left: 8rem;
+    }
+
+    .person__icon.dance {
+        right: 2rem;
+    }
+
+    .header__icon.fit {
+        top: 45%;
+        right: calc(100% / 6);
+    }
+}
+
+@media(max-width: 350px) {
+    .header__icon.play {
+        left: calc(100% / 8);
+    }
+
+    .want__icon.play {
+        right: -0.5rem;
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 20);
+    }
+
+    .want__icon.graph {
+        right: -1.5rem;
+    }
+
+    .easy {
+        right: -1rem;
+    }
+
+    .mid {
+        right: 0;
+    }
+
+    .hard {
+        top: 10rem;
+    }
+
+    .intro__title {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+    }
+
+    .person__icon.speed {
+        right: 2rem;
+    }
+}
+
+@media(max-width: 320px) {
+
+    .header__icon.dance {
+        right: calc(100% / 6);
+    }
+
+    .header__icon.fit {
+        top: 50%;
+    }
+
+    .header__icon.pulse {
+        right: calc(100% / 10);
+    }
+
+    .header__icon.play {
+        left: calc(100% / 10);
+    }
+
+    .easy {
+        right: -2rem;
+    }
+
+    .short__title {
+        line-height: 3.6rem;
+    }
+
+    .short__about {
+        font-weight: 500;
+    }
+
+    .card__title {
+        font-size: 2.4rem;
+        line-height: 3.2rem;
+    }
+
+    .card__cont {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .person__name {
+        width: 100%;
+    }
+
+    .person__icon.kkal {
+        left: 4rem;
+    }
+
+    .person__icon.dance {
+        right: 1rem;
+    }
+
+    .person__icon.play {
+        left: 6rem;
+    }
+}
