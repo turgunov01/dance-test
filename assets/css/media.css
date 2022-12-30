@@ -828,3 +828,319 @@
         row-gap: .5rem;
     }
 }
+
+@media(max-width: 500px) {
+    .header__icon.dance {
+        right: calc(100% / 3.5);
+    }
+
+    .header__text-group-inner {
+        font-size: 1rem;
+        line-height: 1.8rem;
+        max-width: 17rem;
+    }
+
+    .header__icon.speed {
+        width: 2rem;
+    }
+
+    .header__icon.play {
+        left: calc(100% / 4.5);
+    }
+
+    .header__icon.fit {
+        width: 10rem;
+    }
+
+    .want__block-name {
+        width: 80%;
+    }
+
+    .mid {
+        right: 8rem;
+    }
+
+    .person__icon.play {
+        left: 13rem;
+    }
+
+    .person__icon.dance {
+        right: 7rem;
+    }
+
+    .person__name {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+    }
+
+    .want__icon.play {
+        right: calc(100% / 6);
+    }
+
+    .want__icon.graph {
+        right: calc(100% / 10);
+    }
+
+    .want__icon.badge {
+        padding: .75rem 1.5rem;
+    }
+
+    .easy {
+        right: 5rem;
+    }
+
+    .wave.yet {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .wave.sak {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .wave.toq {
+        width: 25rem;
+        height: 25rem;
+    }
+}
+
+@media(max-width: 450px) {
+    .header__icon.fit {
+        width: 8rem;
+    }
+
+    .header__icon.pulse {
+        right: calc(100% / 5);
+    }
+
+    .header__icon.dance {
+        right: calc(100% / 3.75);
+    }
+
+    .want__block-name {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        width: 100%;
+    }
+
+    .want__icon.play {
+        right: calc(100% / 8);
+    }
+
+    .want__icon.graph {
+        right: calc(100% / 15);
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 6);
+    }
+
+    .header__text-flow {
+        font-size: 10rem;
+        line-height: 10rem;
+    }
+
+    .wave.bir {
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .wave.ikki {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .wave.uch {
+        width: 45rem;
+        height: 45rem;
+    }
+
+    .short__title {
+        font-size: 2.8rem;
+        line-height: 3.2rem;
+    }
+
+    .short__icon {
+        padding: 1.5rem;
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .hard {
+        left: 6rem;
+        top: 15rem;
+    }
+
+    .mid {
+        right: 6rem;
+    }
+
+    .easy {
+        right: 3rem;
+    }
+
+    .want__light {
+        width: 15rem;
+    }
+
+    .person__name {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    .person__type {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .person__icon.dance {
+        right: 5rem;
+    }
+
+    .person__icon.kkal {
+        top: 5rem;
+        left: 9rem;
+    }
+
+    .person__icon.play {
+        width: 5rem;
+        left: 10rem;
+    }
+
+    .person__icon.speed {
+        right: 5rem;
+    }
+
+    .short__about {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .person__about {
+        max-width: 100%;
+    }
+}
+
+
+@media(max-width: 400px) {
+    .header__icon.dance {
+        right: calc(100% / 4.25);
+    }
+
+    .header__icon.speed {
+        width: 3rem;
+        left: -1rem;
+    }
+
+    .header__icon.play {
+        left: calc(100% / 6);
+    }
+
+    .want__icon.play {
+        right: 2rem;
+    }
+
+    .want__icon-text {
+        margin: .5rem;
+    }
+
+    .want__icon.graph {
+        right: calc(100% / 30);
+    }
+
+    .want__icon.badge {
+        left: calc(100% / 10);
+        top: 55%;
+    }
+
+    .short__title {
+        width: 90%;
+    }
+
+    .easy {
+        right: 0;
+    }
+
+    .hard {
+        left: 3rem;
+    }
+
+    .mid {
+        right: 3rem;
+    }
+
+    .intro__title {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+
+    .ad__logo-about {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+
+    .ad__logo-text {
+        row-gap: 0;
+    }
+
+    .ad__logo-name {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .ad__logo-image {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .person__name {
+        font-size: 2rem;
+        line-height: 2.6rem;
+    }
+
+    .person__type {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+        margin-bottom: .5rem;
+    }
+
+    .person__icon.dance {
+        right: 5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        padding: .75rem;
+    }
+
+    .person__icon.play {
+        width: 3.5rem;
+        left: 10rem;
+        top: 68%;
+    }
+
+    .person__about {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .ad__block {
+        padding: 3rem;
+    }
+
+    .person__content {
+        padding: 3rem;
+    }
+
+    .ad__logo {
+        max-width: 25rem;
+    }
+
+    .ad__item {
+        font-size: 1.4rem;
+        line-height: 2.2rem;
+    }
+
+    .ad__content {
+        margin-top: 3rem;
+    }
+}
