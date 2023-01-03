@@ -5,11 +5,12 @@
 }
 
 :root {
-    --background-dark: rgba(68, 68, 68);
+    --background-dark: #444444;
     --background-light: unset;
     --text-color: rgba(255, 255, 255);
     --title-color: rgba(164, 255, 0, 1);
     --wave-background: linear-gradient(180deg, #1DCCFD 0%, #9C27B0 100%);
+    --wave-animation: linear-gradient(180deg, rgba(29,204,253,1) 0%, rgba(156,39,176,1) 45%, rgba(68,68,68,1) 100%);
     --text-size: 2rem;
     --text-height: 3rem;
     --weight-400: 400;
@@ -290,18 +291,21 @@ html {
     width: 61.33rem;
     height: 61.33rem;
     animation-delay: 500ms;
+    background: var(--wave-animation);
 }
 
 .wave.ikki {
     width: 82.65rem;
     height: 82.65rem;
     animation-delay: 1s;
+    background: var(--wave-animation);
 }
 
 .wave.uch {
     width: 100rem;
     height: 100rem;
     animation-delay: 1.5s;
+    background: var(--wave-animation);
 }
 
 @keyframes wave {
@@ -971,4 +975,20 @@ main::after {
 
 .person.hidden {
     display: none;
+}
+
+
+
+
+/* Remove some piece of gradient */
+
+.header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20rem;
+    z-index: -1;
+    /* background: linear-gradient(180deg, rgba(104, 104, 104, 0) 0%, rgba(104, 104, 104, 1) 100%); */
+    width: 100%;
 }
