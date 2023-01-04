@@ -592,10 +592,17 @@
         right: calc(100% / 3.5);
     }
 
+    .person__name {
+        width: 100%;
+    }
+
     .intro__title {
+        font-size: 3.2rem;
+        line-height: 4.2rem;
         margin: 4rem auto;
         width: 90%;
     }
+
 
     .ad__item {
         font-size: 1.6rem;
@@ -910,9 +917,7 @@
         width: 8rem;
     }
 
-    .person__name {
-        width: 100%;
-    }
+
 
     .ad__right-image {
         margin-bottom: 2rem;
@@ -1226,10 +1231,7 @@
         top: 10rem;
     }
 
-    .intro__title {
-        font-size: 3.2rem;
-        line-height: 4.2rem;
-    }
+
 
     .person__icon.speed {
         right: 2rem;
