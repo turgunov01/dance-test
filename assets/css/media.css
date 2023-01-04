@@ -910,6 +910,10 @@
         width: 8rem;
     }
 
+    .person__name {
+        width: 100%;
+    }
+
     .ad__right-image {
         margin-bottom: 2rem;
     }
