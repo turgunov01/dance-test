@@ -910,6 +910,10 @@
         width: 8rem;
     }
 
+    .ad__right-image {
+        margin-bottom: 2rem;
+    }
+
     .header__icon.pulse {
         right: calc(100% / 5);
     }
