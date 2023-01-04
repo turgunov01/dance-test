@@ -593,14 +593,14 @@
     }
 
     .person__name {
-        width: 100%;
+        width: 100% !important;
     }
 
     .intro__title {
-        font-size: 3.2rem;
-        line-height: 4.2rem;
-        margin: 4rem auto;
-        width: 90%;
+        font-size: 3.2rem !important;
+        line-height: 4.2rem !important;
+        margin: 4rem auto !important;
+        width: 90% !important;
     }
 
 
